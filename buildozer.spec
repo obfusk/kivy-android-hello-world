@@ -6,6 +6,7 @@ source.dir = .
 source.include_exts = py
 version = 0.0.1
 requirements = kivy==2.0.0rc4
+requirements.source.kivy = ../kivy
 orientation = portrait
 fullscreen = 0
 android.api = 29
