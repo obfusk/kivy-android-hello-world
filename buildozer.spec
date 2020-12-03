@@ -15,8 +15,9 @@ android.ndk = 20b
 #android.sdk_path =
 android.accept_sdk_license = True
 android.arch = arm64-v8a
-p4a.fork = obfusk
-p4a.branch = python3.9
+# p4a.fork = obfusk
+# p4a.branch = python3.9
+p4a.branch = develop
 p4a.bootstrap = sdl2
 
 [buildozer]
