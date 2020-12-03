@@ -25,4 +25,4 @@ jobs:
       with:
         name: APK
         path: |
-          android/bin/*.apk
+          bin/*.apk
