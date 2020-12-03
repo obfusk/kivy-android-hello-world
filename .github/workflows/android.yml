@@ -17,6 +17,8 @@ jobs:
         sudo apt-get install -y zlib1g-dev zip unzip pkg-config libffi-dev
         sudo apt-get install -y libltdl-dev
         sudo apt-get install -y lld
+        pip install --upgrade buildozer
+        pip install --upgrade Cython==0.29.19 virtualenv
     - name: Build
       run: buildozer android debug
     - uses: actions/upload-artifact@v2
