@@ -19,7 +19,6 @@ jobs:
         sudo apt-get install -y lld
         pip install --upgrade buildozer
         pip install --upgrade Cython==0.29.19 virtualenv
-        git clone -b python3.9 https://github.com/obfusk/kivy.git ../kivy
     - name: Build
       run: buildozer android debug
     - uses: actions/upload-artifact@v2
